@@ -1,0 +1,20 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="timer.js"></script>
+    <script language ="javascript" >
+	TIMER.init([0,3,"label","btnSubmit"]);
+	TIMER.Run();
+	$(document).ready(function(){
+		$('#btnSubmit').click(function(){
+			window.location = "https://mycodingpad.wordpress.com";
+		});
+	});
+    </script> 
+</head>
+<body>
+    <p style="color:#fff;font-size:50px;font-weight:bold;border:3px solid #000;width:120px;padding:20px;border-radius:5px;background-color:MediumSeaGreen;box-shadow: 1px 3px #888888" id="label"></p>
+    <button id="btnSubmit">Click Me!</button>
+</body>
+</html>
